@@ -1,3 +1,4 @@
+Ваня Сабин, [30.03.2023 19:10]
 <!DOCTYPE html>
 <html lang="ru" >
 <head>
@@ -200,7 +201,7 @@ LOGO
 <p>Студент группы АДБ-21-07.</p>
 <p><br>
 <p><br>
-<img src="C:\Users\arsen\Desktop\Industry\nekoark.jpg" width="180" height="180"/>
+<img src=" D:\nekoark\nekoark.jpg" width="180" height"180" style="margin-left:50px;"/>
 <h1>Сабин И.В.</h1>
 <p>Студент группы АДБ-21-07.</p>
 <p><br>
@@ -224,7 +225,8 @@ LOGO
             <button class="btn" onclick="myFunction()">Обновить данные</button>
             <ul id="demo">
 
-            </ul>
+Ваня Сабин, [30.03.2023 19:10]
+</ul>
         </div>
         <script>
             function sleep(ms) {
@@ -238,7 +240,7 @@ LOGO
                     let text = await response.text(); // прочитать тело ответа как текст
                     for (const [key, value] of Object.entries(JSON.parse(text)[0])) {
                         const newEl = document.createElement("li")
-                        newEl.appendChild(document.createTextNode(`${key}: ${value}`))
+                        newEl.appendChild(document.createTextNode(${key}: ${value}))
                         el.appendChild(newEl)
                         await sleep(100)
                     }
@@ -250,5 +252,4 @@ LOGO
         </script>
 
     </body>
-
 </html>
